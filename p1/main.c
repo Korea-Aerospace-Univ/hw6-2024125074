@@ -5,7 +5,7 @@ int main(void)
     char arr[10]={}; //문자열 배열 선언과 동시에 초기화
     int count=0, maxWcount=0; //count는 연속되는 문자의 수,maxWcount는 연속된 문자의 최댓값
     char *p, *q; //이중반복문을 위한 두가지 포인터 선언
-    char W,maxW =\0; //W는 입력받을 문자,maxW는 가장 많이 나타난 문자
+    char W,maxW ='\0'; //W는 입력받을 문자,maxW는 가장 많이 나타난 문자
     
     for (p=arr; p<arr+10;p++) //포인터 사용해서 문자 10개 입력받을 때까지 반복
     scanf("%c",p); // 문자 입력받기
